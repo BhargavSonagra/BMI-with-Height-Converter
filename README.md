@@ -1,5 +1,7 @@
 # BMI-with-Height-Converter
-![BMI image](https://user-images.githubusercontent.com/127089537/227130211-feaa7144-ed16-4f9d-9934-50b652cad386.PNG)
+
+<img width="347" height="482" alt="bmi SS" src="https://github.com/user-attachments/assets/44eb7a16-8acd-4101-8fc7-32e09093d174" />
+
 BMI with height converter so user no need to leave app to convert his height from foot to cm.
 This is a simple web application that calculates Body Mass Index (BMI) based on user input. It is created using HTML, CSS, and JavaScript.</br></br>
 <b>Usage</b></br>
