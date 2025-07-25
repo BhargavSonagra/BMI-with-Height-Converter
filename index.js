@@ -1,6 +1,10 @@
 
 let Weight = document.querySelector("#weight");
 let height = document.querySelector("#height");
+
+let weight_value = document.querySelector("#weight_value");
+let height_value = document.querySelector("#height_value");
+
 let submit = document.querySelector("#submit");
 let bmiValue = document.querySelector("#bmiValue");
 let bmiText = document.getElementById("bmiText");
@@ -17,29 +21,34 @@ submit.addEventListener("click", (e) => {
     bmiValue.innerHTML = result;
 
     if (result < 18.5) {
-        console.log("Underweight")
+        console.log("Under weight")
         bmiValue.style.borderColor = "#eba834"
         bmiText.style.color = "#eba834"
-        bmiText.innerHTML = "Underweight"
+        bmiText.innerHTML = "Under weight"
 
     } else if (result >= 18.5 && result < 24.9) {
         bmiValue.style.borderColor = "green"
         bmiText.style.color = "green"
-        console.log("Normal")
+        // console.log("Normal")
         bmiText.innerHTML = "Normal"
 
     } else if (result >= 25 && result < 29.9) {
         bmiValue.style.borderColor = "#eb6134"
         bmiText.style.color = "#eb6134"
-        console.log("Overweight")
-        bmiText.innerHTML = "Overwight"
+        // console.log("Overweight")
+        bmiText.innerHTML = "Over wight"
 
     } else if (result > 30) {
         bmiValue.style.borderColor = "#ad242d"
         bmiText.style.color = "#ad242d"
-        console.log("Obese")
+        // console.log("Obese")
         bmiText.innerHTML = "Obese"
     }
+weight_value.innerText = `Weight : ${weight.value} kg`;
+height_value.innerText = `Height : ${height.value} cm`;
+
+Weight.value ="";
+height.value=""
 
 })
 
