@@ -1,6 +1,8 @@
 # BMI-with-Height-Converter
+<img width="313" height="468" alt="BMISS" src="https://github.com/user-attachments/assets/ed54debe-4cf2-47b3-a295-26d51b55f7ab" />
 
-<img width="347" height="482" alt="bmi SS" src="https://github.com/user-attachments/assets/44eb7a16-8acd-4101-8fc7-32e09093d174" />
+
+<img width="312" height="456" alt="BMI SS2" src="https://github.com/user-attachments/assets/79833df2-2a0c-413a-ae4d-05b1d3016977" />
 
 
 This is the source code for the **BMI Calculator** web app. Users can enter height and weight to calculate their Body Mass Index (BMI).
