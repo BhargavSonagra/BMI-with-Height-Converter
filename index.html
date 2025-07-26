@@ -27,22 +27,25 @@
                     <button id="clickhere">Click Here</button>
                 </h5>
             </div>
+            <div>
             <button type="submit" id="submit">Calculate</button>
+            <button type="Reset" id="Reset">Reset</button>
+            </div>
             <div id="bmiContainer">
-                <span id="bmiValue"></span>
+                <div id="bmiValue"></div>
                 <div id="info">
                     <div>
                     <span id="bmi">BMI</span>
                     <div id="weight_value"></div>
                     <div id="height_value"></div>
                     </div>
-                    <h1 id="bmiText"></h1>
                 </div>
             </div>
+            <h1 id="bmiText"></h1>
             <img src="./images/bmi status.PNG" alt="">
         </div>
 
-        <div id="height_container">
+        <!-- <div id="height_container">
             <div id="high_converotr">
                 <button id="closebtn"> X </button>
                 <h2>Height Convertor</h2>
@@ -54,7 +57,26 @@
                 </div>
                 <button id="copybtn" >Copy</button>
             </div>
-        </div>
+        </div> -->
+    <div id="height_container">
+  <div id="high_converotr">
+    <button id="closebtn">X</button>
+    <h2>Height Converter</h2>
+
+    <div>
+      <input type="number" name="foot" id="foot" placeholder="Foot">
+    </div>
+    <div>
+      <input type="number" name="inch" id="inch" placeholder="Inch">
+    </div>
+    <div>
+      <input type="number" name="cm" id="cm" placeholder="CM" readonly>
+    </div>
+
+    <button id="copybtn">Copy</button>
+  </div>
+</div>
+
     </div>
     <script src="index.js"></script>
 </body>
